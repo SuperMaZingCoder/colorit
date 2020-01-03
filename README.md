@@ -56,7 +56,9 @@ As output you get:
 
 ![](ImagesInReadMe/demo.png)
 
-That's it. That's really all there is to it.
+If you would like to try this for yoyr self, you can download `demo.py` and try it out. 
+
+And that's it. That's really all there is to it.
 
 ## Release Log
 * Released the first version of ColorIt (v1.0.0)
