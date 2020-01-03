@@ -52,6 +52,10 @@ print (background (color ("This text is blue with a white background", colors.BL
 
 ```
 
+As output you get:
+
+!()[ImagesInReadMe\demo.png]
+
 That's it. That's really all there is to it.
 
 ## Release Log
