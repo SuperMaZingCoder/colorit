@@ -43,7 +43,7 @@ print (background ('This text has a background that is purple', colors.PURPLE))
 print (background ('This text has a background that is white', colors.WHITE))
 
 # Custom
-print (background ("This color has a custom grey text color", (150, 150, 150))
+print (color ("This color has a custom grey text color", (150, 150, 150))
 print (background ("This color has a custom grey background", (150, 150, 150))
 
 # Combination
