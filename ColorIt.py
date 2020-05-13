@@ -1,7 +1,8 @@
 import os
+import sys
+
 
 class colors:
-
     RED = (245, 90, 66)
     ORANGE = (245, 170, 66)
     YELLOW = (245, 252, 71)
@@ -12,11 +13,15 @@ class colors:
 
 
 def initColorIt():
-    os.system("cls")
+    if sys.platform.startswith('win32'):
+        os.system("cls")
+    elif sys.platform.startswith('darwin') or sys.platform.startswith('linux'):
+        os.system("clear")
+
 
 def color(text, rgb):
-    return "\033[38;2;" + str(rgb[0]) + ";" + str(rgb[1]) + ";" + str(rgb[2]) +"m" + text + "\033[0m"
-    
-    
+    return "\033[38;2;" + str(rgb[0]) + ";" + str(rgb[1]) + ";" + str(rgb[2]) + "m" + text + "\033[0m"
+
+
 def background(text, rgb):
-    return "\033[48;2;" + str(rgb[0]) + ";" + str(rgb[1]) + ";" + str(rgb[2]) +"m" + text + "\033[0m"
+    return "\033[48;2;" + str(rgb[0]) + ";" + str(rgb[1]) + ";" + str(rgb[2]) + "m" + text + "\033[0m"
