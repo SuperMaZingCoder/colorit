@@ -65,4 +65,4 @@ And that's it. That's really all there is to it.
 * Added a license
 
 ## Support me on patreon!
-Here is my patreon page: https://www.patreon.com/supermazingcoder :D
+Here is the link to my patreon page: https://www.patreon.com/supermazingcoder :D
