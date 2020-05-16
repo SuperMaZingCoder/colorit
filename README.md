@@ -63,3 +63,6 @@ And that's it. That's really all there is to it.
 ## Release Log
 * Released the first version of ColorIt (v1.0.0)
 * Added a license
+
+## Support me on patreon!
+Here is my patreon page: https://www.patreon.com/supermazingcoder :D
