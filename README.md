@@ -12,44 +12,49 @@ There are two ways to install ColorIt, I strongly reccomend the scond method
 
 * Install the file into each of you project's directories. **This method doesn't allow repeated use, you have to do it for each project.**
 
-* Install the `ColorIt.py` file into your `<Directory to python>\Python\<python version folder>\Lib\site-packages` path. **This method allows repeated use, you only have to do it once.**
+* Install the `colorit.py` file into your `<Directory to python>\Python\<python version folder>\Lib\site-packages` path. **This method allows repeated use, you only have to do it once.**
 
 ## How to use it
 
 To use ColorIt:
 
 ```python
-from ColorIt import *
+from colorit import *
 
 # Use this to ensure that ColorIt will be usable by certain command line interfaces
-initColorIt()
+init_colorit()
 
 # Foreground
-print (color ('This text is red', colors.RED))
-print (color ('This text is orange', colors.ORANGE))
-print (color ('This text is yellow', colors.YELLOW))
-print (color ('This text is green', colors.GREEN))
-print (color ('This text is blue', colors.BLUE))
-print (color ('This text is purple', colors.PURPLE))
-print (color ('This text is white', colors.WHITE))
+print(color("This text is red", colors.RED))
+print(color("This text is orange", colors.ORANGE))
+print(color("This text is yellow", colors.YELLOW))
+print(color("This text is green", colors.GREEN))
+print(color("This text is blue", colors.BLUE))
+print(color("This text is purple", colors.PURPLE))
+print(color("This text is white", colors.WHITE))
 
 # Background
-print (background ('This text has a background that is red', colors.RED))
-print (background ('This text has a background that is orange', colors.ORANGE))
-print (background ('This text has a background that is yellow', colors.YELLOW))
-print (background ('This text has a background that is green', colors.GREEN))
-print (background ('This text has a background that is blue', colors.BLUE))
-print (background ('This text has a background that is purple', colors.PURPLE))
-print (background ('This text has a background that is white', colors.WHITE))
+print(background("This text has a background that is red", colors.RED))
+print(background("This text has a background that is orange", colors.ORANGE))
+print(background("This text has a background that is yellow", colors.YELLOW))
+print(background("This text has a background that is green", colors.GREEN))
+print(background("This text has a background that is blue", colors.BLUE))
+print(background("This text has a background that is purple", colors.PURPLE))
+print(background("This text has a background that is white", colors.WHITE))
 
 # Custom
-print (color ("This color has a custom grey text color", (150, 150, 150))
-print (background ("This color has a custom grey background", (150, 150, 150))
+print(color("This color has a custom grey text color", (150, 150, 150)))
+print(background("This color has a custom grey background", (150, 150, 150)))
 
 # Combination
-print (background (color ("This text is blue with a white background", colors.BLUE), colors.WHITE))
+print(
+    background(
+        color("This text is blue with a white background", colors.BLUE), colors.WHITE
+    )
+)
 
-
+# If you are using Windows Command Line, this is so that it doesn't close immediately
+input()
 ```
 
 As output you get:
