@@ -12,7 +12,7 @@ class Colors:
     white = (255, 255, 255)
 
 
-def init_coloit():
+def init_colorit():
     if sys.platform.startswith("win32"):
         os.system("cls")
     elif sys.platform.startswith("darwin") or sys.platform.startswith("linux"):
