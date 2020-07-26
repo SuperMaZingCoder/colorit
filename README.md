@@ -55,7 +55,7 @@ input()
 
 As output you get:
 
-![](ImagesInReadMe/demo.png)
+![demo](https://user-images.githubusercontent.com/55718659/88487218-1fbcf800-cf51-11ea-8a27-678407774a37.png)
 
 If you would like to try this for yoyr self, you can download `demo.py` and try it out. 
 
