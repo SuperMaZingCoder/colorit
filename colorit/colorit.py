@@ -1,4 +1,4 @@
-import os
+import colorama
 import sys
 
 
@@ -12,11 +12,9 @@ class Colors:
     white = (255, 255, 255)
 
 
+# Uses colorama's init method to initialize
 def init_colorit():
-    if sys.platform.startswith("win32"):
-        os.system("cls")
-    elif sys.platform.startswith("darwin") or sys.platform.startswith("linux"):
-        os.system("clear")
+    colorama.init()
 
 
 def color(text, rgb):

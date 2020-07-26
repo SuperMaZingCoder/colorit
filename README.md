@@ -1,7 +1,7 @@
 # ColorIt
 A simple library to add color to your output.
 
-Have you ever wanted to print colors to the console? I certainly have. There comes a time when you realize it is a necessity. That's why I created ColorIt. ColorIt is a super simple way to print color to the console. 
+Have you ever wanted to print Colors to the console? I certainly have. There comes a time when you realize it is a necessity. That's why I created ColorIt. ColorIt is a super simple way to print color to the console. 
 
 ## How it works
 
@@ -25,22 +25,22 @@ from colorit import *
 init_colorit()
 
 # Foreground
-print(color("This text is red", colors.RED))
-print(color("This text is orange", colors.ORANGE))
-print(color("This text is yellow", colors.YELLOW))
-print(color("This text is green", colors.GREEN))
-print(color("This text is blue", colors.BLUE))
-print(color("This text is purple", colors.PURPLE))
-print(color("This text is white", colors.WHITE))
+print(color("This text is red", Colors.RED))
+print(color("This text is orange", Colors.ORANGE))
+print(color("This text is yellow", Colors.YELLOW))
+print(color("This text is green", Colors.GREEN))
+print(color("This text is blue", Colors.BLUE))
+print(color("This text is purple", Colors.PURPLE))
+print(color("This text is white", Colors.WHITE))
 
 # Background
-print(background("This text has a background that is red", colors.RED))
-print(background("This text has a background that is orange", colors.ORANGE))
-print(background("This text has a background that is yellow", colors.YELLOW))
-print(background("This text has a background that is green", colors.GREEN))
-print(background("This text has a background that is blue", colors.BLUE))
-print(background("This text has a background that is purple", colors.PURPLE))
-print(background("This text has a background that is white", colors.WHITE))
+print(background("This text has a background that is red", Colors.RED))
+print(background("This text has a background that is orange", Colors.ORANGE))
+print(background("This text has a background that is yellow", Colors.YELLOW))
+print(background("This text has a background that is green", Colors.GREEN))
+print(background("This text has a background that is blue", Colors.BLUE))
+print(background("This text has a background that is purple", Colors.PURPLE))
+print(background("This text has a background that is white", Colors.WHITE))
 
 # Custom
 print(color("This color has a custom grey text color", (150, 150, 150)))
@@ -49,7 +49,7 @@ print(background("This color has a custom grey background", (150, 150, 150)))
 # Combination
 print(
     background(
-        color("This text is blue with a white background", colors.BLUE), colors.WHITE
+        color("This text is blue with a white background", Colors.BLUE), Colors.WHITE
     )
 )
 
