@@ -31,6 +31,3 @@ print(
         color("This text is blue with a white background", Colors.blue), Colors.white
     )
 )
-
-# If you are using Windows Command Line, this is so that it doesn't close immediately
-input()
