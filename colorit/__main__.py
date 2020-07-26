@@ -28,7 +28,7 @@ print(background("This color has a custom grey background", (150, 150, 150)))
 # Combination
 print(
     background(
-        color("This text is blue with a white background", Colors.BLUE), Colors.WHITE
+        color("This text is blue with a white background", Colors.blue), Colors.white
     )
 )
 
