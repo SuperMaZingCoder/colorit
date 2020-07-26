@@ -4,8 +4,11 @@ A simple library to add color to your output.
 Have you ever wanted to print Colors to the console? I certainly have. There comes a time when you realize it is a necessity. That's why I created ColorIt. ColorIt is a super simple way to print color to the console. 
 
 ## How it works
+Interally, the library creates custom ANSI sequences with RGB values. This means there are 16 million colors that can be used with `colorit`! The library is initialialized with ![colorama's](https://github.com/tartley/colorama) initialize method which 
 
-Interally, the library creates custom ANSI sequences with RGB values. This means there will never be a problem where a color changes. For example if I were to use pre-defined ANSI sequence, `\033[34m`, it would not print blue as it previously did. But, this problem is avoided because it doesn't use predefined values, each one is custom made.
+> will filter ANSI escape sequences out of any text sent to stdout or stderr, and replace them with equivalent Win32 calls. (https://github.com/tartley/colorama)
+
+This basically allows the library to work on Windows *without* clearing the terminal like was previously done in earlier versions of `colorit`.
 
 ## Installation
 To install `colorit`. Run `pip install color-it` on Windows, or `pip3 install color-it` on macOS and Linux, from there it can be imported with `import colorit`
