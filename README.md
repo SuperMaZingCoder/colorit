@@ -8,11 +8,7 @@ Have you ever wanted to print Colors to the console? I certainly have. There com
 Interally, the library creates custom ANSI sequences with RGB values. This means there will never be a problem where a color changes. For example if I were to use pre-defined ANSI sequence, `\033[34m`, it would not print blue as it previously did. But, this problem is avoided because it doesn't use predefined values, each one is custom made.
 
 ## Installation
-There are two ways to install ColorIt, if you are creating something that is not for personal use, use the first method. Otherwise, use the second. This is because if you send out the code and ColorIt is not in the project directory, a different user will get an error saying that the file was not found.
-
-* Install the file into each of you project's directories. **This method doesn't allow repeated use, you have to do it for each project.**
-
-* Install the `colorit.py` file into your `<Directory to python>\Python\<python version folder>\Lib\site-packages` path. **This method allows repeated use, you only have to do it once.**
+To install `colorit`. Run `pip install color-it` on Windows, or `pip3 install color-it` on macOS and Linux, from there it can be imported with `import colorit`
 
 ## How to use it
 

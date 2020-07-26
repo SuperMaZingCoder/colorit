@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="color-it",
-    version="1.0.0",
+    version="1.1.0",
     author="SuperMaZingCoder",
     author_email="supermazingcoder@gmail.com",
     description="A cross-platform lightweight package for printing colors in the terminal.",
