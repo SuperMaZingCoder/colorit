@@ -24,22 +24,22 @@ from colorit import *
 init_colorit()
 
 # Foreground
-print(color("This text is red", Colors.RED))
-print(color("This text is orange", Colors.ORANGE))
-print(color("This text is yellow", Colors.YELLOW))
-print(color("This text is green", Colors.GREEN))
-print(color("This text is blue", Colors.BLUE))
-print(color("This text is purple", Colors.PURPLE))
-print(color("This text is white", Colors.WHITE))
+print(color("This text is red", Colors.red))
+print(color("This text is orange", Colors.orange))
+print(color("This text is yellow", Colors.yellow))
+print(color("This text is green", Colors.green))
+print(color("This text is blue", Colors.blue))
+print(color("This text is purple", Colors.purple))
+print(color("This text is white", Colors.white))
 
 # Background
-print(background("This text has a background that is red", Colors.RED))
-print(background("This text has a background that is orange", Colors.ORANGE))
-print(background("This text has a background that is yellow", Colors.YELLOW))
-print(background("This text has a background that is green", Colors.GREEN))
-print(background("This text has a background that is blue", Colors.BLUE))
-print(background("This text has a background that is purple", Colors.PURPLE))
-print(background("This text has a background that is white", Colors.WHITE))
+print(background("This text has a background that is red", Colors.red))
+print(background("This text has a background that is orange", Colors.orange))
+print(background("This text has a background that is yellow", Colors.yellow))
+print(background("This text has a background that is green", Colors.green))
+print(background("This text has a background that is blue", Colors.blue))
+print(background("This text has a background that is purple", Colors.purple))
+print(background("This text has a background that is white", Colors.white))
 
 # Custom
 print(color("This color has a custom grey text color", (150, 150, 150)))
@@ -48,7 +48,7 @@ print(background("This color has a custom grey background", (150, 150, 150)))
 # Combination
 print(
     background(
-        color("This text is blue with a white background", Colors.BLUE), Colors.WHITE
+        color("This text is blue with a white background", Colors.blue), Colors.white
     )
 )
 
