@@ -1,4 +1,3 @@
-import colorama
 import sys
 import os
 
