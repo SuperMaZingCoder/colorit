@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="color-it",
-    version="1.2.2",
+    version="2.0.0",
     author="SuperMaZingCoder",
     author_email="supermazingcoder@gmail.com",
     description="A cross-platform lightweight package for printing colors in the terminal.",
@@ -18,6 +18,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
-    install_requires=["colorama"]
+    python_requires=">=3.6",
 )
