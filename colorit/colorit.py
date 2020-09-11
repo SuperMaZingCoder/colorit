@@ -63,7 +63,7 @@ def color(text, rgb):
     )
 
 
-def color_ansii(text, color):
+def color_ansi(text, color):
     return "{}{}\033[0m".format(color, text)
 
 
