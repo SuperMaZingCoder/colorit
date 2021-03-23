@@ -1,17 +1,6 @@
 import sys
 import os
 
-
-class Colors:
-    red = (245, 90, 66)
-    orange = (245, 170, 66)
-    yellow = (245, 252, 71)
-    green = (92, 252, 71)
-    blue = (71, 177, 252)
-    purple = (189, 71, 252)
-    white = (255, 255, 255)
-
-
 class ColorsFG:
     Black = "\033[30m"
     Red = "\033[31m"
